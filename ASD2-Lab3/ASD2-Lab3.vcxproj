@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ASD2-Lab3.cpp" />
+    <ClCompile Include="Data.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="PriorityQueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
