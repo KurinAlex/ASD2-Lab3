@@ -133,4 +133,6 @@ int main()
 
 	cout << "Heapsort test:" << endl;
 	testHeapsort();
+
+	cin.get();
 }

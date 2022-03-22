@@ -34,7 +34,7 @@ private:
 
 	void siftDown(int i)
 	{
-		while (2 * i + 1 < size())
+		while (getLeftChild(i) < size())
 		{
 			int left = getLeftChild(i);
 			int right = getRightChild(i);

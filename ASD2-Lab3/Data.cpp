@@ -11,5 +11,5 @@ Data::Data()
 	hp = rand() % HP_MAX + 1;
 	damage = rand() % DAMAGE_MAX + 1;
 	skill = rand() % SKILL_MAX + 1;
-	priority = float(hp / HP_MAX) + float(damage / DAMAGE_MAX) + float(skill / SKILL_MAX);
+	priority = (float)hp / HP_MAX + (float)damage / DAMAGE_MAX + (float)skill / SKILL_MAX;
 }
