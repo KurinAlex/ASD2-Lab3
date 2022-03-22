@@ -111,7 +111,7 @@ bool testHeapsort()
 		stlSortArray[i] = randData;
 	}
 	float myTime = testSortSpeed(heapsort, mySortArray, size);
-	float stlTime = testSortSpeed(sort, mySortArray, size);
+	float stlTime = testSortSpeed(sort, stlSortArray, size);
 	bool isDataSorted = isSorted(mySortArray, mySortArray + size);
 	cout << "My sort:" << endl;
 	cout << "Time: " << myTime << endl;
