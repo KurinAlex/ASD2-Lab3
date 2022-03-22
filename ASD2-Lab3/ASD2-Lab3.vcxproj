@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="Data.h" />
     <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="Heapsort.h" />
     <ClInclude Include="PriorityQueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
